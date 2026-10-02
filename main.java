@@ -1,5 +1,5 @@
-public class main {
+echo 'public class Main {
     public static void main(String[] args) {
-        hello.printHelloWorld(System.out);
+        HelloImpl.printHelloWorld(System.out);
     }
-}
+}' > Main.java
