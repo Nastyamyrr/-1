@@ -1,7 +1,7 @@
-import java.io.PrintStream;
+echo 'import java.io.PrintStream;
 
-public class hello {
+public class Hello {
     public static void printHelloWorld(PrintStream out) {
-        out.print("Hello, World!\n");
+        out.println("Hello, World!");
     }
-}
+}' > Hello.java
